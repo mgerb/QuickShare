@@ -97,7 +97,7 @@ namespace QuickShare
                     }
 
                     bitmap.Save(folderPath + imageName, ImageFormat.Jpeg);
-                    ShowBalloonAndUpdate(notifyIcon1, 500, "Screenshot", folderPath);
+                    ShowBalloonAndUpdate(notifyIcon1, 500, "Screenshot", folderPath + imageName);
                 }
                 catch (Exception)
                 {
